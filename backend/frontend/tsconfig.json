@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "ESNext",
+        "noEmit": true, 
+        "strict": true,
+        "noImplicitAny": true,
+        "noUnusedParameters": true,
+        "pretty": true,
+        "lib": ["ESNext", "DOM"],
+        "alwaysStrict": true,
+        "inlineSourceMap": true,
+        "inlineSources": true
+    },
+    "include": ["./**/*.ts"]
+}

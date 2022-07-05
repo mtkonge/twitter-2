@@ -6,7 +6,9 @@
     "start": "node dist/main.js",
     "dev": "nodemon dist/main.js",
     "build": "tsc",
-    "watch": "tsc --watch"
+    "watch": "tsc --watch",
+    "checkf": "tsc -p frontend/tsconfig.json",
+    "buildf": "esbuild frontend/main.ts --bundle --outfile=public/bundle.js --minify --sourcemap --tsconfig=frontend/tsconfig.json"
   },
   "repository": "https://github.com/mtkonge/twitter-2",
   "author": "mtkonge",
