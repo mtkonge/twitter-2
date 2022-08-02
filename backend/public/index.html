@@ -7,12 +7,17 @@
     <title>Twitter 2</title>
 </head>
 <body>
-    <input type="text" placeholder="Title">
+    <p class="errormsg" id="errormsg"></p>
+    <h4>Title</h4>
+    <input type="text" id="title" placeholder="Title">
+    <h4>Content</h4>
+    <textarea placeholder="Content" id="content" cols="30" rows="10"></textarea>
     <br>
-    <textarea placeholder="Content" id="" cols="30" rows="10"></textarea>
-    <br>
-    <input type="button" value="Submit">
+    <input type="button" id="createpost" value="Post">
     <h2>Posts:</h2>
     <div id="posts"></div>
+    <script src="utils.js"></script>
+    <script src="script.js"></script>
+
 </body>
 </html>
