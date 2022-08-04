@@ -9,8 +9,9 @@ createPostButton.addEventListener("click", async () => {
         title: title.value,
         content: content.value
     }
-    
+    console.log(data)
     const res = await sendPostRequest("/api/createpost", data);
+    console.log(res)
     const body = await res.json();
 
     window.location.pathname = "/";
