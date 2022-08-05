@@ -1,6 +1,6 @@
-import { Database } from "Database";
+import { Database } from "./Database";
 import { Request, Response, Router } from "express";
-import { Post } from "Models";
+import { Post } from "./Models";
 
 
 export const postApiRoutes = (router: Router, database: Database) => {

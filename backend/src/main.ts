@@ -1,7 +1,7 @@
-import { api } from "api";
+import { api } from "./api";
 import cors from "cors";
 import express, { Request, Response } from "express";
-import { MemoryDb } from "MemoryDb";
+import { MemoryDb } from "./MemoryDb";
 
 const PORT = 8000;
 
